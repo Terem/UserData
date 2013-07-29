@@ -16,6 +16,8 @@
 		C3268566179C0BBA00B98D05 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3268561179C0BBA00B98D05 /* Social.framework */; };
 		C3268568179C14A500B98D05 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C3268567179C14A500B98D05 /* FBUserSettingsViewResources.bundle */; };
 		C326856A179C15B100B98D05 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3268569179C15B100B98D05 /* CoreLocation.framework */; };
+		C3A7936717A55E3500351059 /* my_db1.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C3A7936617A55E3500351059 /* my_db1.sqlite */; };
+		C3D7C29E179D1EFD00A4A9FC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7C29D179D1EFD00A4A9FC /* LoginViewController.m */; };
 		C3D8B3F617942E4900D04513 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D8B3F517942E4900D04513 /* UIKit.framework */; };
 		C3D8B3F817942E4900D04513 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D8B3F717942E4900D04513 /* Foundation.framework */; };
 		C3D8B3FA17942E4900D04513 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D8B3F917942E4900D04513 /* CoreGraphics.framework */; };
@@ -88,6 +90,9 @@
 		C3268561179C0BBA00B98D05 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		C3268567179C14A500B98D05 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = ../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
 		C3268569179C15B100B98D05 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C3A7936617A55E3500351059 /* my_db1.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = my_db1.sqlite; sourceTree = "<group>"; };
+		C3D7C29C179D1EFD00A4A9FC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C3D7C29D179D1EFD00A4A9FC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C3D8B3F217942E4900D04513 /* UserData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D8B3F517942E4900D04513 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C3D8B3F717942E4900D04513 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -227,6 +232,8 @@
 				C3D8B41817942E4900D04513 /* SecondViewController.m */,
 				C3D8B41A17942E4900D04513 /* second.png */,
 				C3D8B41C17942E4900D04513 /* second@2x.png */,
+				C3D7C29C179D1EFD00A4A9FC /* LoginViewController.h */,
+				C3D7C29D179D1EFD00A4A9FC /* LoginViewController.m */,
 				C3D8B3FC17942E4900D04513 /* Supporting Files */,
 				C3D8B43D17948FF300D04513 /* fmdb */,
 			);
@@ -237,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				C3D8B46E179491E900D04513 /* my_db.sqlite */,
+				C3A7936617A55E3500351059 /* my_db1.sqlite */,
 				C3D8B3FD17942E4900D04513 /* UserData-Info.plist */,
 				C3D8B3FE17942E4900D04513 /* InfoPlist.strings */,
 				C3D8B40117942E4900D04513 /* main.m */,
@@ -435,6 +443,7 @@
 				C3D8B46F179491E900D04513 /* my_db.sqlite in Resources */,
 				C326855C179C0A2400B98D05 /* FacebookSDKResources.bundle in Resources */,
 				C3268568179C14A500B98D05 /* FBUserSettingsViewResources.bundle in Resources */,
+				C3A7936717A55E3500351059 /* my_db1.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +488,7 @@
 				C3D8B46217948FF400D04513 /* FMDatabasePool.m in Sources */,
 				C3D8B46317948FF400D04513 /* FMDatabaseQueue.m in Sources */,
 				C3D8B46517948FF400D04513 /* FMResultSet.m in Sources */,
+				C3D7C29E179D1EFD00A4A9FC /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import "FirstViewController.h"
 #import "FMDatabase.h"
+#import <FacebookSDK/FacebookSDK.h>
 
 @interface FirstViewController ()
 -(void) positionViews;
@@ -53,7 +54,7 @@
     [super viewDidLoad];
     [self positionViews];
 	    
-    NSString *path=[[[NSBundle mainBundle]resourcePath]stringByAppendingPathComponent:@"my_db.sqlite"];
+    NSString *path=[[[NSBundle mainBundle]resourcePath]stringByAppendingPathComponent:@"my_db1.sqlite"];
     FMDatabase *database;
     database=[FMDatabase databaseWithPath:path];
     database.traceExecution=true;
